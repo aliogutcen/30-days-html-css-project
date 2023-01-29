@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Shadows+Into+Light&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --body-fonts: "Pacifico", cursive;
+  --body-fonts1: "Shadows Into Light", cursive;
+}
+
+body {
+  background-color: #eae0da;
+  height: 1500px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 30%;
+  background-color: #eac7c7;
+}
+
+.list ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.list li {
+  font-size: 14px;
+  text-align: center;
+  padding: 10px;
+}
+
+.a2 {
+  font-size: 40px;
+  font-family: var(--body-fonts);
+  font-family: var(--body-fonts1);
+}
+
+.a1 {
+  font-family: var(--body-fonts);
+  font-family: var(--body-fonts1);
+}
+
+.a3 {
+  font-family: var(--body-fonts);
+  font-family: var(--body-fonts1);
+}
+
+.blogmenusu {
+  flex: 7;
+}
+
+.solmenu {
+  flex: 2;
+}
+
+.sagmenu {
+  flex: 1;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  margin: 1%;
+  padding: 1%;
+  gap: 25px;
+}
+
+.menuler ul {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  gap: 50px;
+  justify-content: space-around;
+}
+
+.menuler li {
+  border-radius: 25% 10%;
+  border: solid 1px black;
+  padding: 10px;
+
+  text-align: center;
+  color: black
+  font-weight: bolder;
+}
+
+.sag-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 50px;
+}
+
+.bloglar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+}
+
+.blog-yazisi {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.fotograf {
+  object-fit: cover;
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  border-radius: 5px;
+}
+
+.yazi {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+  border-radius: 5px;
+}
+
+.blog-icerik-ayari {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 10px;
+}
+
+.yazilar-deneme {
+  flex: 5;
+  text-align: justify;
+}
+
+.devamini-oku {
+  flex: 1;
+}
+
+
+
+.arama-yap{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

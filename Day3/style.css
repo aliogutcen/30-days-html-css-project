@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Klee+One&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,900&family=Pacifico&family=Shadows+Into+Light&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 120vh;
+  overflow: hidden;
+  border: 3px solid black;
+  color: rgb(199, 197, 197);
+  background-color: #da25c269;
+}
+
+.menu-left-side {
+  border: 0.1px solid black;
+  width: 38vh;
+  height: 60vh;
+  border-right: 0px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgb(241, 241, 241);
+}
+.menu-right-side {
+  border: 0.1px solid black;
+  width: 38vh;
+  height: 60vh;
+  background-image: linear-gradient(
+    rgba(180, 1, 1, 0.753),
+    rgba(182, 2, 2, 0.24)
+  );
+}
+
+.menu-textarea {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5vh;
+  gap: 3vh;
+}
+
+.main-text {
+  letter-spacing: 1px;
+  font-weight: 900;
+  font-size: 22px;
+  color: white;
+  text-align: center;
+  margin-top: 20vh;
+}
+.main-second-text {
+  font-weight: 400;
+  font-size: 15px;
+  color: white;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.top-left-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 9vh;
+  gap: 2vh;
+  margin-bottom: 15%;
+}
+.login {
+  color: black;
+  font-size: 45px;
+  font-weight: 700;
+}
+.social-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2vh;
+  margin-bottom: 2vh;
+}
+.social-logo {
+  width: 40px;
+  border: groove 0.5px grey;
+  border-radius: 50%;
+}
+
+.new-user {
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-form-text {
+  width: 30vh;
+  height: 4vh;
+  text-align: center;
+}
+.forgot {
+  display: inline-block;
+  text-align: center;
+  font-size: 10px;
+  margin-top: 2vh;
+}
+
+.login-bottom {
+  width: 20vh;
+  height: 5vh;
+  border-radius: 10%;
+  background-color: rgba(255, 192, 203, 0.329);
+  margin-top: -1vh;
+}
+
+.login-bottom:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.login-bottom:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 1px rgba(0, 0, 0, 0.2);
+}
+.social-logo:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.social-logo:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 1px rgba(0, 0, 0, 0.2);
+}
