@@ -106,6 +106,8 @@ body {
   width: 30vh;
   height: 4vh;
   text-align: center;
+  animation-name: textAkar;
+  animation-duration: 5s;
 }
 .forgot {
   display: inline-block;
@@ -137,4 +139,16 @@ body {
 .social-logo:active {
   transform: translateY(-1px);
   box-shadow: 0 5px 1px rgba(0, 0, 0, 0.2);
+}
+
+@keyframes textAkar {
+  0% {
+    opacity: 0;
+    transform: rotateX(-100px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: rotateX(0);
+  }
 }
