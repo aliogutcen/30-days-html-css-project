@@ -1,5 +1,5 @@
 let secretValues = Math.floor(Math.random() * 10 + 11);
-console.log(secretValues);
+
 let scoreHigh;
 document.querySelector(".check").addEventListener("click", function () {
   const guess = Number(document.querySelector(".guess").value);
@@ -49,7 +49,6 @@ document.querySelector(".again").addEventListener("click", function () {
   document.querySelector(".score").textContent = "20";
 
   secretValues = Math.floor(Math.random() * 10 + 11);
-  console.log(secretValues);
   document.querySelector(".message").textContent = "Start guessing!";
   document.querySelector(".guess").value = "";
   document.querySelector(".number").textContent = "?";
