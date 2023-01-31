@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row mb-3 mt-5">
+        <div class="col-2"></div>
+        <div class="col-8">
+            <p class="g-2 text-center mb-4">BMI CALCU</p>
+          <div class="row mb-4 h-auto mt-4 ">
+            <input
+              class="form-control form-control-lg d-inline-flex p-2  "
+              type="text"
+              aria-label=".form-control-lg example"
+            />
+          </div>
+          <div class="row mb-4  ">
+            <input
+              class="form-control form-control-lg g-6 "
+              type="text"
+              aria-label=".form-control-lg example"
+            />
+          </div>
+        </div>
+        <div class="col-2"></div>
+      </div>
+      <div class="row mt-xxl-5">
+        <div class="col-2"></div>
+
+        <div class="col-8">
+          <p class="g-2 text-center mb-4">YOU'RE INFO.</p>
+          <div class="row mt-3">
+            <input
+              class="form-control form-control-lg g-6"
+              type="text"
+              aria-label=".form-control-lg example"
+            />
+          </div>
+          <div class="row mt-3">
+            <input
+              class="form-control form-control-lg g-6"
+              type="text"
+              aria-label=".form-control-lg example"
+            />
+          </div>
+          <div class="row mt-3 mb-5">
+            <div clas="secim">
+                <div class="form-check form-switch">
+                    <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                    <label class="form-check-label" for="flexSwitchCheckDefault">Woman</label>
+                  </div>
+                  <div class="form-check form-switch">
+                    <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
+                    <label class="form-check-label" for="flexSwitchCheckChecked">Man</label>
+                  </div>
+            </div>
+          </div>
+          <div class="row mt-3 mb-5">
+            <button
+              type="button"
+              class="btn btn-primary bg-dark border-light
+              style="font-family: Press Start 2P, sans-serif"
+            >
+              Calculate
+            </button>
+          </div>
+        </div>
+
+        <div class="col-2"></div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

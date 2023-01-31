@@ -112,8 +112,26 @@ h1 {
 .message {
   margin-bottom: 8rem;
   height: 3rem;
+  animation-name: "identifier ";
+  animation-duration: 3sn;
 }
 
 .label-score {
   margin-bottom: 2rem;
+}
+
+@keyframes identifier {
+  0% {
+    top: 0;
+  }
+  50% {
+    top: 30px;
+    left: 20px;
+  }
+  50% {
+    top: 10px;
+  }
+  100% {
+    top: 0;
+  }
 }
